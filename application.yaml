@@ -10,7 +10,7 @@ spec:
     path: yamls
   destination:
     server: https://kubernetes.default.svc
-    namespace: argocd-test
+    namespace: default
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
